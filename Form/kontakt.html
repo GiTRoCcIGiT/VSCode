@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="">
+        <div class="komunikat hide">Wypełnij pola form....</div>
+        <div>
+            <input required placeholder="Imię">
+            <input required placeholder="Nazwisko">
+        </div>
+        <div>
+            <input required placeholder="Email">
+        </div>
+        <div>
+            <input required placeholder="Telefon">
+        </div>
+        <div>
+            <input type="checkbox" name="zgoda" value="tak" id="">
+        </div>
+        <input type="submit" value="Wyślij">
+    </form>
+
+    <script>
+
+        document.querySelector('form').addEventListener('submit', e=>{
+            document.querySelector('.komunikat').classList.add('hide')
+           
+           if(!document.querySelector('[name=zgoda]').checked)
+           {
+               e.preventDefault();
+               document.querySelector('.komunikat').classList.remove('hide')
+           }
+        });
+    </script>
+</body>
+</html>

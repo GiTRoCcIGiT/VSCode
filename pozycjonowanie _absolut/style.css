@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/87/c1/8b/87c18b70b2c96b1b32bf0dbe719d8e9b.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%auto;
+}
+
+body > div {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    background-color: #0000005f;
+}
+
+body > div > div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    left: 800px;
+    bottom: 45px;
+    transition: 1s all;
+}
+
+body > div > div > div {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    left: 25px;
+    bottom: 25px;
+    transition: 1s all;
+}
+
+body > div > div > div > div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    left: 25px;
+    bottom: 25px;
+}

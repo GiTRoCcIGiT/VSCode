@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(24, 22, 22);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.obr {
+    display: flex;
+    justify-content: center;
+}
+
+.contH {
+    text-align: center;
+    color: white;
+    padding: 5px;
+    width: auto;
+    height: 60px;
+}
+
+.contM {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    width: auto;
+    height: 80px;
+}
+
+.iv {
+    width: 15px;
+    height: 10px;
+}
+
+.Galeria {
+    display: flex;
+    flex-direction: row;
+    max-width: max-content;
+}
+ 
+.column1 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+}
+ 
+.column2 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.column3 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.column4 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.column1 img {
+    height: auto;
+    width: 250px;
+    border-radius: 16px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.column2 img {
+    height: auto;
+    width: 250px;
+    border-radius: 16px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.column3 img {
+    height: auto;
+    width: 250px;
+    border-radius: 16px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.column4 img {
+    height: auto;
+    width: 250px;
+    border-radius: 16px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
